@@ -1,0 +1,11 @@
+*.asm
+*.gb
+*.ihx
+*.lib
+*.lk
+*.lst
+*.map
+*.noi
+*.o
+*.rel
+*.sym
