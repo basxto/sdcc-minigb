@@ -25,7 +25,7 @@ build: $(LIB)
 	cat $^ | xxd -i >> $@
 	echo "};" >> $@
 
-$(LIB): minigb.o miniegb.o minigb_font.o
+$(LIB): minigb.o minigb_vram.o minigb_font.o
 	$(AR) $(ARFLAGS) $@ $^
 
 .PHONY: clean
